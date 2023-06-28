@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+  /* =========universel part on this=========== */
+* {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+  /* ========all valid color setup======= */
+:root {
+  --primary: #fbdb00;
+  --h: #010101;
+  --p: #313841;
+}
+
+  /* =========header part start========== */
+  .header {
+    width: 100%;
+    min-height: 300px;
+    background-color: var(--primary);
+  }
+
+  .navbar-brand span {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--h);
+    text-transform: lowercase;
+  }
+
+  .nav-item {
+    color: var(--h);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 45px;
+  }
+
+
+  .header-con h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--h);
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
+  .header-con h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #323841;
+    line-height: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
+  .header-con p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--p);
+    line-height: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
+  .header-icon {
+    font-size: 35px;
+  }
+
+  .header-con {
+    padding-right: 15%;
+    margin-top: 55px;
+  }
+
+  .header-con-main {
+    padding-top: 75px;
+  }
+  /* =========header part end========== */
+
+  /* =========feature part start========== */
+  .feature-head h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--h);
+    padding-bottom: 25px;
+  }
+
+  .feature-head p {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: var(--p);
+  }
+
+  .feature-head {
+    padding-bottom: 45px;
+  }
+
+  .feature-con-detel h2 {
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: var(--h);
+    padding-bottom: 15px;
+  }
+
+  .feature-con-detel p {
+    font-size: 16;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #898989;
+  }
+
+  .feature-con-icon {
+    font-size: 36px;
+  }
+
+  .feature {
+    padding: 75px 0;
+  }
+  /* =========feature part end========== */
+
+  /* =========contact part start========== */
+  .contact .feature-head h2 {
+    color: var(--primary);
+  }
+
+  .contact .feature-head  {
+    color: #898989;
+  }
+
+  .contact {
+    background-color: var(--h);
+  }
+
+  .email-control {
+    height: 45px;
+    width: 50%;
+    color: var(--p);
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .btn-control {
+    padding: 11px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--h);
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: var(--primary);
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .contact-form {
+    padding-bottom: 55px;
+  }
+
+  .contact-con-icon i {
+    padding: 10px 10px;
+    font-size: 16px;
+    color: var(--h);
+    background-color: var(--primary);
+    border-radius: 5px;
+    margin: 0 20px;
+  }
+
+  .contact-adress p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  .contact {
+    padding: 75px 0;
+  }
+  /* =========contact part end========== */
